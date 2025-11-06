@@ -1,6 +1,6 @@
-scoreboard players add @s gib.GRAVITY 25
-#execute store result storage gib:storage MACRO.LIFETIME int 1 run scoreboard players get @s gib.LIFE
-execute store result storage gib:storage MACRO.GRAVITY int 1 run scoreboard players get @s gib.GRAVITY
+# PRE-MOVE
+scoreboard players add @s gib.GRAVITY 1
 
-function gib:zprivate/move/motion with storage gib:storage MACRO
-execute at @s run function gib:zprivate/block_check/init
+data remove storage gib:storage MACRO.GRAVITY
+execute store result storage gib:storage MACRO.GRAVITY float 0.01 run scoreboard players get @s gib.GRAVITY
+
