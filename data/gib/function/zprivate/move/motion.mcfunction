@@ -1,6 +1,8 @@
+scoreboard players operation #ID gib.ID = @s gib.ID
+
 summon marker ~ ~ ~ {Tags:["gib.OLD_POS"]}
 
-tp @s ^ ^ ^0.4
+tp @s ^ ^ ^1
 $execute at @s run tp @s ~ ~-$(GRAVITY) ~
 execute at @s facing entity @n[tag=gib.OLD_POS,type=marker] feet positioned ^ ^ ^0.1 run function gib:zprivate/move/detect_surface
 kill @e[tag=gib.OLD_POS,type=marker]
