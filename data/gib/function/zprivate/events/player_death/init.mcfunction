@@ -1,7 +1,7 @@
 # fire_coral_block, red_concrete_powder, red_glazed_terracotta
 
 # // Number of Gibs Spawned
-scoreboard players set #GibCount gib.CONFIG 10
+scoreboard players set #GibCount gib.CONFIG 20
 
 execute store result score #len gib.CONFIG run data get storage gib:storage GIB.BLOCKS.PLAYER_DEATH
 scoreboard players remove #len gib.CONFIG 1
