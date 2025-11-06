@@ -1,4 +1,4 @@
-$summon item_display ~ ~ ~ {Tags:["gib.DISPLAY", "gib", "gib.NEW"], item:{id:"$(block)"}, teleport_duration:1}
+$summon item_display ~ ~ ~ {Tags:["gib.DISPLAY", "gib", "gib.NEW"], item:$(block), teleport_duration:1}
 $data modify entity @n[tag=gib.DISPLAY,tag=gib.NEW] transformation.scale set value [$(scale)f, $(scale)f, $(scale)f]
 summon marker ~ ~ ~ {Tags:["gib.VECTOR", "gib", "gib.NEW"]}
 

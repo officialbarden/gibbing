@@ -8,3 +8,4 @@ scoreboard players remove #len gib.CONFIG 1
 execute store result storage gib:storage MACRO.GIB.len int 1 run scoreboard players get #len gib.CONFIG
 function gib:zprivate/events/player_death/randomize with storage gib:storage MACRO.GIB
 
+advancement revoke @s only gib:player_death
