@@ -1,0 +1,1 @@
+scoreboard players add @s gib.LIFE 1
