@@ -9,3 +9,4 @@ scoreboard objectives add gib.LIFE dummy
 scoreboard objectives add gib.ID dummy
 scoreboard players add .global gib.ID 1
 
+function gib:global/loop1t
