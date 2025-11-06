@@ -3,6 +3,7 @@ scoreboard objectives add gib.CONFIG dummy
 scoreboard players set GibLife gib.CONFIG 1000
 scoreboard players set GibGravity gib.CONFIG 4
 
+data modify storage gib:storage GIB.BLOCKS.PLAYER_DEATH set value ["fire_coral_block", "red_concrete_powder", "red_glazed_terracotta"]
 
 scoreboard objectives add gib.GRAVITY dummy
 scoreboard objectives add gib.LIFE dummy
