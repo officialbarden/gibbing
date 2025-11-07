@@ -1,7 +1,7 @@
 # fire_coral_block, red_concrete_powder, red_glazed_terracotta
 
 # // Number of Gibs Spawned
-scoreboard players set #GibCount gib.CONFIG 15
+scoreboard players set #GibCount gib.CONFIG 40
 
 effect give @s invisibility 1 1 true
 execute store result storage gib:storage MACRO.GIB.deathX int 1 run data get entity @s LastDeathLocation.pos[0]
