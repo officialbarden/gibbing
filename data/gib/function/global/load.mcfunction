@@ -3,7 +3,7 @@ scoreboard objectives add gib.PLAYER_DEATH deathCount
 scoreboard objectives add gib.CONFIG dummy
 scoreboard objectives add gib.VELOCITY1000 dummy
 
-scoreboard players set GibLife gib.CONFIG 1000
+scoreboard players set GibLife gib.CONFIG 200
 scoreboard players set GibGravity gib.CONFIG -4
 scoreboard players set IsSticky gib.CONFIG 0
 
