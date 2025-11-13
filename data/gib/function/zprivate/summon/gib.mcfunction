@@ -1,4 +1,4 @@
-$summon item_display ~ ~ ~ {Tags:["gib.DISPLAY", "gib", "gib.NEW"], item:$(block), teleport_duration:1, brightness:{sky:10,block:10}}
+$summon item_display ~ ~ ~ {Tags:["gib.DISPLAY", "gib", "gib.NEW"], item:$(block), teleport_duration:1}
 execute if items entity @n[tag=gib.DISPLAY,tag=gib,tag=gib.NEW,type=item_display] contents player_head run item modify entity @n[tag=gib.DISPLAY,tag=gib,tag=gib.NEW,type=item_display] contents {function:"fill_player_head",entity:"this"}
 $data modify entity @n[tag=gib.DISPLAY,tag=gib.NEW] transformation.scale set value [$(scale)f, $(scale)f, $(scale)f]
 summon marker ~ ~ ~ {Tags:["gib.VECTOR", "gib", "gib.NEW"]}
