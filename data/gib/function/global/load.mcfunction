@@ -1,4 +1,4 @@
-# // Scoreboards
+## // Scoreboards
 scoreboard objectives add gib.PLAYER_DEATH deathCount
 scoreboard objectives add gib.CONFIG dummy
 scoreboard objectives add gib.VELOCITY1000 dummy
