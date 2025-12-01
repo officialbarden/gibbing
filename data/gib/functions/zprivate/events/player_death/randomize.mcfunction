@@ -9,4 +9,4 @@ $execute store result storage gib:storage MACRO.GIB.block int 1 run random value
 function gib:zprivate/events/player_death/block_choose with storage gib:storage MACRO.GIB
 function gib:zprivate/events/player_death/macro with storage gib:storage MACRO.GIB
 scoreboard players remove #GibCount gib.CONFIG 1
-$execute if score #GibCount gib.CONFIG matches 1.. run return run function gib:zprivate/events/player_death/randomize {len: $(len)}
+$execute if score #GibCount gib.CONFIG matches 1.. run function gib:zprivate/events/player_death/randomize {len: $(len)}
