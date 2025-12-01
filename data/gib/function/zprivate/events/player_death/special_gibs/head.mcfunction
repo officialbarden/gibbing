@@ -11,5 +11,5 @@ data modify storage gib:storage MACRO.GIB.scale set value 1
 
 
 function gib:zprivate/events/player_death/special_gibs/spawn with storage gib:storage MACRO.GIB
-execute as @n[tag=gib.DISPLAY,tag=gib,type=item_display] if items entity @s contents player_head run item modify entity @s contents {function:"fill_player_head",entity:"this"}
-execute as @n[tag=gib.DISPLAY,tag=gib,type=item_display] if items entity @s contents player_head run tag @s add gib.PLAYER_HEAD
+#execute as @n[tag=gib.DISPLAY,tag=gib,type=item_display] if items entity @s contents player_head run item modify entity @s contents {function:"fill_player_head",entity:"this"}
+#execute as @n[tag=gib.DISPLAY,tag=gib,type=item_display] if items entity @s contents player_head run tag @s add gib.PLAYER_HEAD

@@ -1,4 +1,4 @@
-rotate @s ~180 ~
+tp @s ~ ~ ~ ~180 ~
 function gib:zprivate/rotate/invert/init
 scoreboard players set #damp gib.CONFIG 923
 scoreboard players operation @s gib.VELOCITY1000 *= #damp gib.CONFIG
