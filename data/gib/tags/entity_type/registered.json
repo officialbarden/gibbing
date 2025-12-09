@@ -4,6 +4,8 @@
         "zombie",
         "skeleton",
         "wither_skeleton",
-        "creeper"
+        "creeper",
+        "drowned",
+        "spider"
     ]
 }

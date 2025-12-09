@@ -12,10 +12,11 @@ execute unless score EnableMobGibbing gib.CONFIG matches -2147483648..2147483647
 data remove storage gib:storage GIB.BLOCKS
 data modify storage gib:storage GIB.BLOCKS.MOB_HIT.ENDERMAN set value ["purple_stained_glass", "purple_concrete_powder", "purple_glazed_terracotta", "stripped_crimson_stem", "purple_terracotta", "stripped_crimson_stem", "purple_concrete"]
 data modify storage gib:storage GIB.BLOCKS.MOB_HIT.ZOMBIE set value ["fire_coral_block", "red_concrete_powder", "red_glazed_terracotta", "nether_bricks", "chiseled_nether_bricks", "black_glazed_terracotta", "netherrack"]
+data modify storage gib:storage GIB.BLOCKS.MOB_HIT.DROWNED set value ["moss_block", "green_wool", "oak_wood", "brown_wool", "magma_block", "red_terracotta", "red_wool", "fire_coral_block"]
 data modify storage gib:storage GIB.BLOCKS.MOB_HIT.SKELETON set value ["bone", "bone_meal"]
 data modify storage gib:storage GIB.BLOCKS.MOB_HIT.WITHER_SKELETON set value ["bone", "coal", "charcoal"]
 data modify storage gib:storage GIB.BLOCKS.MOB_HIT.CREEPER set value ["light_gray_concrete_powder", "mossy_cobblestone", "green_concrete", "green_terracotta", "magma_block", "tnt"]
-
+data modify storage gib:storage GIB.BLOCKS.MOB_HIT.SPIDER set value ["black_concrete", "black_wool", "black_concrete_powder", "sculk", "cracked_polished_blackstone_bricks", "polished_blackstone_bricks", "cracked_deepslate_tiles", "gray_concrete", "gray_wool"]
 # Player Death
 data modify storage gib:storage GIB.BLOCKS.PLAYER_DEATH set value ["fire_coral_block", "red_concrete_powder", "red_glazed_terracotta", "nether_bricks", "chiseled_nether_bricks", "black_glazed_terracotta", "netherrack"]
 
