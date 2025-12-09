@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "enderman": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#gib:registered"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "gib:zprivate/events/entity_hit/trigger"
+    }
+}
