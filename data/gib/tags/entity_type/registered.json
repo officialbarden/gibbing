@@ -1,6 +1,9 @@
 {
     "values": [
         "enderman",
-        "zombie"
+        "zombie",
+        "skeleton",
+        "wither_skeleton",
+        "creeper"
     ]
 }
