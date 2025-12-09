@@ -9,6 +9,7 @@ scoreboard players set IsSticky gib.CONFIG 0
 
 # Mob Hit Blocks
 data modify storage gib:storage GIB.BLOCKS.MOB_HIT.ENDERMAN set value ["purple_stained_glass", "purple_concrete_powder", "purple_glazed_terracotta", "stripped_crimson_stem", "purple_terracotta", "stripped_crimson_stem", "purple_concrete"]
+data modify storage gib:storage GIB.BLOCKS.MOB_HIT.ZOMBIE set value ["fire_coral_block", "red_concrete_powder", "red_glazed_terracotta", "nether_bricks", "chiseled_nether_bricks", "black_glazed_terracotta", "netherrack"]
 #data modify storage gib:storage GIB.BLOCKS.MOB_HIT.SKELETON set value ["purple_stained_glass", "purple_concrete_powder", "purple_glazed_terracotta", "stripped_crimson_stem", "purple_terracotta", "stripped_crimson_stem", "purple_concrete"]
 
 # Player Death
