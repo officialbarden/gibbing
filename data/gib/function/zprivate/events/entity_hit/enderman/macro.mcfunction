@@ -1,1 +1,1 @@
-$execute positioned ~ ~ ~ positioned ~ ~0.5 ~ positioned ~$(x) ~$(y) ~$(z) rotated $(rot_x) $(rot_y) run function gib:zprivate/summon/gib {block:{id:"$(block_name)"}, "scale": $(scale), "velocity": 0.3}
+$execute positioned ~ ~ ~ positioned ~ ~0.5 ~ positioned ~$(x) ~$(y) ~$(z) rotated $(rot_x) $(rot_y) run function gib:zprivate/summon/gib {block:{id:"$(block_name)"}, "scale": $(scale), "velocity": 0.1, "gravity":0.02, "life": 30}
