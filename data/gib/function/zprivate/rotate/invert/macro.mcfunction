@@ -1,1 +1,1 @@
-$rotate @s ~ $(Y)
+$rotate @s $(X) $(Y)

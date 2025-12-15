@@ -2,6 +2,7 @@
 scoreboard objectives add gib.PLAYER_DEATH deathCount
 scoreboard objectives add gib.GRAVITY dummy
 scoreboard objectives add gib.VELOCITY1000 dummy
+scoreboard objectives add gib.CONFIG dummy
 
 scoreboard players set GibLife gib.CONFIG 200
 scoreboard players set GibGravity gib.CONFIG -4
@@ -17,6 +18,9 @@ data modify storage gib:storage GIB.BLOCKS.MOB_HIT.SKELETON set value ["bone", "
 data modify storage gib:storage GIB.BLOCKS.MOB_HIT.WITHER_SKELETON set value ["bone", "coal", "charcoal"]
 data modify storage gib:storage GIB.BLOCKS.MOB_HIT.CREEPER set value ["light_gray_concrete_powder", "mossy_cobblestone", "green_concrete", "green_terracotta", "magma_block", "tnt"]
 data modify storage gib:storage GIB.BLOCKS.MOB_HIT.SPIDER set value ["black_concrete", "black_wool", "black_concrete_powder", "sculk", "cracked_polished_blackstone_bricks", "polished_blackstone_bricks", "cracked_deepslate_tiles", "gray_concrete", "gray_wool"]
+data modify storage gib:storage GIB.BLOCKS.MOB_HIT.GHAST set value ["white_stained_glass", "white_stained_glass_pane", "stripped_pale_oak_wood", "white_concrete_powder"]
+data modify storage gib:storage GIB.BLOCKS.MOB_HIT.ENDER_DRAGON set value ["black_concrete", "black_wool", "obsidian", "crying_obsidian"]
+
 # Player Death
 data modify storage gib:storage GIB.BLOCKS.PLAYER_DEATH set value ["fire_coral_block", "red_concrete_powder", "red_glazed_terracotta", "nether_bricks", "chiseled_nether_bricks", "black_glazed_terracotta", "netherrack"]
 

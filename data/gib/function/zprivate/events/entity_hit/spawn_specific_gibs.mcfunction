@@ -6,3 +6,5 @@ execute as @s[type=#gib:registered,type=wither_skeleton] run return run function
 execute as @s[type=#gib:registered,type=creeper] run return run function gib:zprivate/events/entity_hit/creeper/init
 execute as @s[type=#gib:registered,type=drowned] run return run function gib:zprivate/events/entity_hit/drowned/init
 execute as @s[type=#gib:registered,type=spider] run return run function gib:zprivate/events/entity_hit/spider/init
+execute as @s[type=#gib:registered,type=ghast] run return run function gib:zprivate/events/entity_hit/ghast/init
+execute as @s[type=#gib:registered,type=ender_dragon] run return run function gib:zprivate/events/entity_hit/ender_dragon/init

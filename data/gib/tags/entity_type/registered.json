@@ -6,6 +6,8 @@
         "wither_skeleton",
         "creeper",
         "drowned",
-        "spider"
+        "spider",
+        "ghast",
+        "ender_dragon"
     ]
 }
