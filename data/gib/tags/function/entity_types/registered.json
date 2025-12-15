@@ -1,0 +1,13 @@
+{
+    "values": [
+        "enderman",
+        "zombie",
+        "skeleton",
+        "wither_skeleton",
+        "creeper",
+        "drowned",
+        "spider",
+        "ghast",
+        "ender_dragon"
+    ]
+}
