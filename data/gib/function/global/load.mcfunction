@@ -6,7 +6,6 @@ scoreboard objectives add gib.CONFIG dummy
 
 scoreboard players set GibLife gib.CONFIG 200
 scoreboard players set GibGravity gib.CONFIG -4
-scoreboard players set IsSticky gib.CONFIG 0
 execute unless score EnableMobGibbing gib.CONFIG matches -2147483648..2147483647 run scoreboard players set EnableMobGibbing gib.CONFIG 1
 
 # Mob Hit Blocks
