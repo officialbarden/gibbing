@@ -4,7 +4,7 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "#gib:registered"
+                    "minecraft:entity_type": "#gib:registered"
                 }
             }
         }
